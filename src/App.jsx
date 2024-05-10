@@ -9,15 +9,23 @@ const App = () => {
   const router = createBrowserRouter(ROUTES)
 
   const[data, setData] = useState([])
+  
+  const[loading, setLoading] = useState(true)
+  const[error, setError] = useState("")
 
   useEffect(()=>{
     axios.get("http://localhost:3000/products").then(res=>{
-      console.log(res);
+      setData([...res.data])
+      console.log([...res.data]);
+      setLoading(false)
+    }).catch(error=>{
+      setError(error)
+      setLoading(false)
     })
   }, [])
 
   const contextData ={
-    data, setData
+    data, setData, error, setError, loading, setLoading
   }
 
   return (
