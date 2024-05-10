@@ -1,0 +1,23 @@
+.first__section h1{
+    font-size: 56px;
+}
+
+.first__section p{
+    font-size: 20px;
+}
+
+.first__section{
+    background-color: #212529;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    margin-bottom: 10px;
+}
+
+.second__section{
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
