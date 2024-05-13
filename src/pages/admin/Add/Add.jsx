@@ -17,8 +17,8 @@ const Add = () => {
        onSubmit={(values, { setSubmitting }) => {
         axios.post('http://localhost:3000/products', {
             id: uuidv4(),
-            image: values.thumbnail,
-            name: values.title,
+            image: values.image,
+            name: values.name,
             description: values.description,
             price: values.price
           }).then(res=>{
@@ -41,22 +41,22 @@ const Add = () => {
          <form onSubmit={handleSubmit}>
          <input
              type="text"
-             name="thumbnail"
-             placeholder='thumbnail'
+             name="image"
+             placeholder='image'
              onChange={handleChange}
              onBlur={handleBlur}
-             value={values.thumbnail}
+             value={values.image}
            />
-           {errors.thumbnail && touched.thumbnail && errors.thumbnail}
+           {errors.image && touched.image && errors.image}
            <input
              type="text"
-             name="title"
-             placeholder='title'
+             name="name"
+             placeholder='name'
              onChange={handleChange}
              onBlur={handleBlur}
-             value={values.title}
+             value={values.name}
            />
-           {errors.title && touched.title && errors.title}
+           {errors.name && touched.name && errors.name}
            <input
              type="text"
              name="description"

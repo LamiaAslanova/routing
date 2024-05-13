@@ -1,81 +1,39 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 549,
-      "image": "https://www.istore.co.za/media/catalog/product/cache/4ebc814e413626645aa42e369230a31f/i/p/iphone_14_blue-5_3.jpg"
+      "id": "020887ed-9d41-46cc-958c-e0031756d078",
+      "image": "https://www.girafa.com.br/visao/default/img/produtos/Telefonia/Celulares/iphone-12-pro-apple-128gb-dourado-tela-6-1-camera-tripla-12mp-ios-896300-1625227020-1-preview.webp",
+      "name": "Iphone 12 Pro",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel augue euismod, fringilla quam quis, mollis libero.",
+      "price": "1800"
     },
     {
-      "id": "2",
-      "name": "iPhone X",
-      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
-      "image": "https://www.istore.co.za/media/catalog/product/cache/4ebc814e413626645aa42e369230a31f/i/p/iphone_14_blue-5_3.jpg"
+      "id": "a7c79817-19c7-40c8-ac64-eb0f42b1f100",
+      "image": "https://www.w-t.az/storage/products/2024/01/9f3jT7msqajppDagpKLaRGQA1GLcmQhNAmklA1Dj-full.jpg",
+      "name": "Samsung Galaxy A05",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel augue euismod, fringilla quam quis, mollis libero.",
+      "price": "1500"
     },
     {
-      "id": "3",
-      "name": "Samsung Universe 9",
-      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-      "price": 1249,
-      "image": "https://www.istore.co.za/media/catalog/product/cache/4ebc814e413626645aa42e369230a31f/i/p/iphone_14_blue-5_3.jpg"
+      "id": "35d02bec-ac23-4eca-99d8-c36aefd117bc",
+      "image": "https://texnomart.az/wp-content/uploads/2023/01/texnomart-Smartfon-Xiaomi-Poco-X4-GT-Blue-1-y80ulg3nekm1i5x96avq.jpg",
+      "name": "Xiaomi",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel augue euismod, fringilla quam quis, mollis libero.",
+      "price": "1200"
     },
     {
-      "id": "4",
-      "name": "OPPOF19",
-      "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 280,
-      "image": "https://www.istore.co.za/media/catalog/product/cache/4ebc814e413626645aa42e369230a31f/i/p/iphone_14_blue-5_3.jpg"
+      "id": "91def0d6-5e56-4053-9fdc-1c5e37ab1410",
+      "image": "https://www.bakuelectronics.az/assets/images/products/136378/honor-x6a-4gb128gb-cyan-lake-1.jpg",
+      "name": "Honor X6A",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel augue euismod, fringilla quam quis, mollis libero.",
+      "price": "1300"
     },
     {
-      "id": "5",
-      "name": "Huawei P30",
-      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-      "price": 499,
-      "image": "https://www.istore.co.za/media/catalog/product/cache/4ebc814e413626645aa42e369230a31f/i/p/iphone_14_blue-5_3.jpg"
-    },
-    {
-      "id": "6",
-      "name": "MacBook Pro",
-      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1749,
-      "image": "https://www.istore.co.za/media/catalog/product/cache/4ebc814e413626645aa42e369230a31f/i/p/iphone_14_blue-5_3.jpg"
-    },
-    {
-      "id": "7",
-      "name": "Samsung Galaxy Book",
-      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
-      "price": 1499,
-      "image": "https://www.istore.co.za/media/catalog/product/cache/4ebc814e413626645aa42e369230a31f/i/p/iphone_14_blue-5_3.jpg"
-    },
-    {
-      "id": "8",
-      "name": "Microsoft Surface Laptop 4",
-      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 1499,
-      "image": "https://www.istore.co.za/media/catalog/product/cache/4ebc814e413626645aa42e369230a31f/i/p/iphone_14_blue-5_3.jpg"
-    },
-    {
-      "id": "9",
-      "name": "Infinix INBOOK",
-      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-      "price": 1099,
-      "image": "https://www.istore.co.za/media/catalog/product/cache/4ebc814e413626645aa42e369230a31f/i/p/iphone_14_blue-5_3.jpg"
-    },
-    {
-      "id": "10",
-      "name": "HP Pavilion 15-DK1056WM",
-      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
-      "price": 1099,
-      "image": "https://www.istore.co.za/media/catalog/product/cache/4ebc814e413626645aa42e369230a31f/i/p/iphone_14_blue-5_3.jpg"
-    },
-    {
-      "id": "0b8feb88-0641-469b-bc58-9550fac41874",
-      "image": "https://cdn.eraspace.com/media/catalog/product/a/p/apple_iphone_15_pro_max_natural_titanium_1_1_5.jpg",
-      "name": "Iphone",
-      "description": "lorem ipsum",
-      "price": "1500 AZN"
+      "id": "f282f84d-6de8-4ce6-b466-0b57fec996ab",
+      "image": "https://texnomart.az/wp-content/uploads/2022/10/texnomart-Huawei-Nova-9SE-blue-og2ywapj73q5fultrsei.jpg",
+      "name": "Huawei Nova 9SE",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel augue euismod, fringilla quam quis, mollis libero.",
+      "price": "1600"
     }
   ]
 }

@@ -1,11 +1,17 @@
-.boxes {
-    min-height: 100vh;
+.all__loading{
+    height: 100vh;
     font-family: Roboto, Arial;
     color: #ADAFB6;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(249, 251, 255,0.6);  
+    background: rgba(249, 251, 255);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.boxes {
     height: 32px;
     width: 32px;
     position: relative;

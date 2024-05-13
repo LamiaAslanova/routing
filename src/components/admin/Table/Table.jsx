@@ -7,11 +7,12 @@ const Table = ({items}) => {
       <table class="table">
         <thead>
           <tr>
-            <th scope="col">id</th>
-            <th scope="col">image</th>
-            <th scope="col">name</th>
-            <th scope="col">description</th>
-            <th scope="col">price</th>
+            <th scope="col">Id</th>
+            <th scope="col">Image</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+            <th scope="col">Delete</th>
           </tr>
         </thead>
         <tbody>
