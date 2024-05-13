@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Home.css'
+import MainContext from '../../../context/context'
+import Loading from '../../Loading/Loading'
+import Cards from '../../../components/site/Cards/Cards'
 
 const Home = () => {
+  const{data, loading}=useContext(MainContext)
   return (
     <main>
       <section>
@@ -10,24 +14,9 @@ const Home = () => {
           <p>With this shop homepage template</p>
         </div>
       </section>
-      <section>
-        <div className="second__section">
-          <div className="container">
-            <div className="row">
-              <div className="col-3">
-                <div class="card" style={{ width: '18rem' }}>
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Price</p>
-                    <button class="btn btn-outline-dark">Add to cart</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {
+        loading? <Loading/>: <Cards cardsInfos={data}/>
+      }
     </main>
   )
 }

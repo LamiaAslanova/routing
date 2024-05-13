@@ -67,7 +67,7 @@ const Add = () => {
            />
            {errors.description && touched.description && errors.description}
            <input
-             type="text"
+             type="number"
              name="price"
              placeholder='price'
              onChange={handleChange}

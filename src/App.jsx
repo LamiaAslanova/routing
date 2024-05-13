@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { RouterProvider, createBrowserRouter} from 'react-router-dom'
 import ROUTES from './routes/routes'
 import './App.css'
 import MainContext from './context/context'
@@ -9,9 +9,9 @@ const App = () => {
   const router = createBrowserRouter(ROUTES)
 
   const[data, setData] = useState([])
-  
   const[loading, setLoading] = useState(true)
   const[error, setError] = useState("")
+  const[basketItems, setBasketItems] = useState(localStorage.getItem("basketItems")?JSON.parse(localStorage.getItem("basketItems")):[])
 
   useEffect(()=>{
     axios.get("http://localhost:3000/products").then(res=>{
@@ -25,7 +25,7 @@ const App = () => {
   }, [])
 
   const contextData ={
-    data, setData, error, setError, loading, setLoading
+    data, setData, error, setError, loading, setLoading, basketItems, setBasketItems
   }
 
   return (

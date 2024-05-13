@@ -7,6 +7,7 @@ import AdminRoot from "../pages/admin/AdminRoot";
 import Detail from "../pages/site/Detail/Detail";
 import Error from "../pages/Error/Error";
 import Add from "../pages/admin/Add/Add";
+import Basket from "../pages/site/Basket/Basket";
 
 const ROUTES = [
   {
@@ -29,6 +30,10 @@ const ROUTES = [
         path: "*",
         element: <Error />,
       },
+      {
+        path:"basket",
+        element: <Basket/>
+      }
     ],
   },
   {

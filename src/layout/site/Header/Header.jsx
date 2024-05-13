@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Header.css'
 import {Link} from "react-router-dom"
+import MainContext from '../../../context/context'
 
 const Header = () => {
+  const{basketItems}=useContext(MainContext)
   return (
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -31,7 +33,7 @@ const Header = () => {
                 </ul>
               </li>
             </ul>
-              <button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-cart-shopping"></i> Cart <span>0</span></button>
+              <Link to='/basket' className='text-decoration-none'><button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-cart-shopping"></i> Cart <span>{basketItems.length}</span></button></Link>
           </div>
         </div>
       </nav>

@@ -17,7 +17,7 @@ const Table = ({items}) => {
         </thead>
         <tbody>
           {
-            items.map((item, index, items) => {
+            items.map((item, index) => {
                 return <TableItem key={index} item={item}/>
             })
           }
